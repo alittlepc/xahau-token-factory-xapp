@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Xahau Token Factory</title>
+  <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
+</head>
+<body>
+  <h1>Xahau Token Factory</h1>
+
+  <p id="status">Connecting to Xaman...</p>
+
+  <form id="token-form">
+    <label>Token Code (3–6 letters):</label><br>
+    <input id="token-code" required><br><br>
+
+    <label>Token Name:</label><br>
+    <input id="token-name" required><br><br>
+
+    <label>Total Supply:</label><br>
+    <input id="total-supply" required><br><br>
+
+    <label>Decimals:</label><br>
+    <input id="decimals" required><br><br>
+
+    <button type="submit">Create Token + Install Hook</button>
+  </form>
+
+  <pre id="log"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
