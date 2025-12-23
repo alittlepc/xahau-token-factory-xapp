@@ -44,9 +44,9 @@ async function createTokenAndHook(issuer) {
     Hooks: [
       {
         Hook: {
-          HookOn: 'FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF',
+          HookOn: '0061736d0100000005030100020608017f01418088040b070a01066d656d6f72790200',
           HookApiVersion: 0,
-          HookNamespace: '0000000000000000000000000000000000000000000000000000000000000000',
+          HookNamespace: '0061736d0100000005030100020608017f01418088040b070a01066d656d6f72790200',
           HookParameters: [],
           CreateCode: WASM_HEX
         }
